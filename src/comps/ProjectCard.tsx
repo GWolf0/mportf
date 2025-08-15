@@ -1,4 +1,3 @@
-import React from 'react'
 import { PortfolioDataDef, ProjectDef } from '../types'
 import { truncate } from '../utils'
 import TagsComp from './TagsComp'

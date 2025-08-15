@@ -1,10 +1,7 @@
-import React, { RefObject, useEffect, useMemo, useRef, useState } from 'react'
-import Background from '../comps/Background';
+import { RefObject, useEffect, useRef, useState } from 'react'
 import useFadeIn from '../hooks/useFadeIn';
 import ProjectDetails from '../comps/ProjectDetails';
-import { PortfolioDataDef, ProjectDef } from '../types';
-import { truncate } from '../utils';
-import TagsComp from '../comps/TagsComp';
+import { PortfolioDataDef} from '../types';
 import FeaturedSection from '../comps/FeaturedSection';
 import ProjectCard from '../comps/ProjectCard';
 

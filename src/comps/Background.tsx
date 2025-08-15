@@ -1,4 +1,4 @@
-import React, { RefObject, useEffect, useRef } from 'react'
+import {useEffect} from 'react'
 
 function Background(){
 
